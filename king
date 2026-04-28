@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Page</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        header {
+            border-bottom: 2px solid #007bff;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .content-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, World!</h1>
+    </header>
+
+    <main class="content-box">
+        <h2>About This Page</h2>
+        <p>This is a simple <strong>index.html</strong> file created to test a web server or start a new project. It uses basic HTML5 structure and internal CSS for styling.</p>
+        
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Responsive design (works on mobile)</li>
+            <li>Clean, readable typography</li>
+            <li>No external dependencies</li>
+        </ul>
+
+        <p>Feel free to edit this file and make it your own!</p>
+    </main>
+
+    <footer>
+        <p style="font-size: 0.8rem; text-align: center; margin-top: 20px;">
+            &copy; 2026 Sample Landing Page
+        </p>
+    </footer>
+
+</body>
+</html>
